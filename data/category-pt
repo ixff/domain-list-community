@@ -1,7 +1,9 @@
-# The list includes private trackers collected in BT站PT站汇总书签（2023-11-17）.
-# Some specific subdomains are stripped, e.g. www, pt, bt.
-# The domain with "@cn-pt" attribute means that most users on the tracker are from mainland China.
-# The domain in the list may not be the tracker domain if the tracker domain does not correspond with its website domain. Those tracker domains are added below, which have "@tracker-pt" attribute. And the corresponding domains have "@website-pt" attribute.
+# 1、本列表中的PT站域名整理自“BT站PT站汇总书签（2023-11-17）”。
+# 2、需要注意的是，由于原出处中域名是网站访问的域名，因此本列表中的域名并不一定是tracker域名。
+# 3、去掉了域名中的一些特定的前缀，比如www、pt、bt，除非网站域名与tracker域名都包含该前缀。
+# 4、属性“@cn-pt”表示站点多数用户为大陆用户，这意味着多数情况下该网站可以直连访问。（所谓的“内站”与“外站”。）
+# 5、如果网站域名与tracker域名不一致（这里指二级域名），或者tracker域名不以“tracker”开头，则网站域名标注属性“@website-pt”，在下方列出对应的tracker域名并标注属性“@tracker-pt”。
+# （第5条的内容并未全部完成。）
 
 
 0ff.cc @cn-pt
@@ -16,7 +18,6 @@ azusa.wiki @cn-pt
 beitai.pt @cn-pt
 biho.xyz @cn-pt
 bitpt.cn @cn-pt
-btschool.club @cn-pt
 byr.pt @cn-pt
 carpt.net @cn-pt
 ccfbits.org @cn-pt
@@ -27,7 +28,6 @@ dhtclub.com @cn-pt
 dicmusic.com @cn-pt
 discfan.net @cn-pt
 dragonhd.xyz @cn-pt
-eastgame.org @cn-pt
 et8.org @cn-pt
 fsm.name @cn-pt
 gamegamept.com @cn-pt
@@ -55,10 +55,12 @@ hdtime.org @cn-pt
 hdupt.com @cn-pt
 hdvbits.com @cn-pt
 hdvideo.one @cn-pt
-hhanclub.top @cn-pt
+hhanclub.top @cn-pt @website-pt
+full:tracker.hhan.club @tracker-pt
+full:hhanclub.top @tracker-pt
 hitpt.com @cn-pt
 htpt.cc @cn-pt
-hudbt.hust.edu.cn @cn-pt
+full:hudbt.hust.edu.cn @cn-pt @website-pt @tracker-pt
 icc2022.com @cn-pt
 ihdbits.me @cn-pt
 inswan.fun @cn-pt
@@ -71,8 +73,10 @@ kufei.org @cn-pt
 leaves.red @cn-pt
 monikadesign.uk @cn-pt
 msg.vg @cn-pt
-m-team.cc @cn-pt
+m-team.cc @cn-pt @website-pt
+full:tra1.m-team.cc @tracker-pt
 m-team.io @cn-pt
+full:tra1.m-team.io @tracker-pt
 nanyangpt.com @cn-pt
 neu6.edu.cn @cn-pt
 nicept.net @cn-pt
@@ -86,6 +90,10 @@ ourdisc.net @cn-pt
 pandapt.net @cn-pt
 piggo.me @cn-pt
 plexfm.top @cn-pt
+full:pt.btschool.club @cn-pt @website-pt @tracker-pt
+full:pt.eastgame.org @cn-pt @website-pt @tracker-pt
+full:pt.sjtu.edu.cn @cn-pt @website-pt
+full:trakcer.sjtu.edu.cn @tracker-pt
 ptcafe.club @cn-pt
 ptchdbits.co @cn-pt
 ptchina.org @cn-pt
@@ -98,13 +106,14 @@ pttime.org @cn-pt
 ptvicomo.net @cn-pt
 rousi.zip @cn-pt
 share.ilolicon.com @cn-pt
-sjtu.edu.cn @cn-pt
 skyey2.com @cn-pt
 soulvoice.club @cn-pt
-springsunday.net @cn-pt
+springsunday.net @cn-pt @website-pt
+full:on.springsunday.net @tracker-pt
 srvfi.top @cn-pt
 star-space.net @cn-pt
-tjupt.org @cn-pt
+tjupt.org @cn-pt @website-pt
+full:tracker-public.tjupt.org @tracker-pt
 totheglory.im @cn-pt
 tu88.men @cn-pt
 u2.dmhy.org @cn-pt
@@ -227,7 +236,8 @@ fappaizuri.me
 fastscene.net
 feedurneed.xyz
 femdomcult.org
-filelist.io
+filelist.io @website-pt
+full:reactor.filelist.io @tracker-pt
 file-tracker.net
 filewarez.tv
 finelite.org
