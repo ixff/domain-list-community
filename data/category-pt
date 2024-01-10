@@ -1,8 +1,10 @@
 # 1、本列表中的PT站域名整理自“BT站PT站汇总书签（2023-11-17）”。
-# 2、需要注意的是，由于原出处中域名是网站访问的域名，因此本列表中的域名并不一定是tracker域名。
-# 3、去掉了域名中的一些特定的前缀，比如www、pt、bt，除非网站域名与tracker域名都包含该前缀。
-# 4、属性“@cn-pt”表示站点多数用户为大陆用户，这意味着多数情况下该网站可以直连访问。（所谓的“内站”与“外站”。）
-# 5、如果网站域名与tracker域名不一致（这里指二级域名），或者tracker域名不以“tracker”开头，则网站域名标注属性“@website-pt”，在下方列出对应的tracker域名并标注属性“@tracker-pt”。
+# 2、由于原出处中域名是网站访问的域名，因此本列表中的域名并不一定是tracker域名。
+# 3、只保留到二级域名，不包括地区顶级域名以及一些特殊情况。
+# 4、属性“@cn-pt”表示站点多数用户为大陆用户（所谓的“内站”与“外站”），这意味着该网站多数情况下可以直连访问。
+# 5、如果网站域名与tracker域名不一致（这里指二级域名），或者tracker域名前缀不是“tracker”，
+#    则网站域名标注属性“@website-pt”，在下方列出对应的tracker域名并标注属性“@tracker-pt”。
+#    （即未列出以“tracker”开头的tracker域名。）
 # （第5条的内容并未全部完成。）
 
 
@@ -18,15 +20,16 @@ azusa.wiki @cn-pt
 beitai.pt @cn-pt
 biho.xyz @cn-pt
 bitpt.cn @cn-pt
+bjtu.edu.cn @cn-pt
 byr.pt @cn-pt
 carpt.net @cn-pt
 ccfbits.org @cn-pt
-club.hares.top @cn-pt
 cyanbug.net @cn-pt
 dajiao.cyou @cn-pt
 dhtclub.com @cn-pt
 dicmusic.com @cn-pt
 discfan.net @cn-pt
+dmhy.org @cn-pt
 dragonhd.xyz @cn-pt
 et8.org @cn-pt
 fsm.name @cn-pt
@@ -35,6 +38,7 @@ gamerapt.link @cn-pt
 greatposterwall.com @cn-pt
 gtk.pw @cn-pt
 haidan.video @cn-pt
+hares.top @cn-pt
 hd4fans.org @cn-pt
 hdarea.club @cn-pt
 hdatmos.club @cn-pt
@@ -63,11 +67,13 @@ htpt.cc @cn-pt
 full:hudbt.hust.edu.cn @cn-pt @website-pt @tracker-pt
 icc2022.com @cn-pt
 ihdbits.me @cn-pt
+ilolicon.com @cn-pt
 inswan.fun @cn-pt
 itzmx.com @cn-pt
 joyhd.net @cn-pt
 kamept.com @cn-pt
 keepfrds.com @cn-pt
+kelu.one @cn-pt
 kimoji.club @cn-pt
 kufei.org @cn-pt
 leaves.red @cn-pt
@@ -84,7 +90,6 @@ okfun.org @cn-pt
 okpt.net @cn-pt
 open.cd @cn-pt
 oshen.win @cn-pt
-our.kelu.one @cn-pt
 ourbits.club @cn-pt
 ourdisc.net @cn-pt
 pandapt.net @cn-pt
@@ -105,7 +110,6 @@ ptsbao.club @cn-pt
 pttime.org @cn-pt
 ptvicomo.net @cn-pt
 rousi.zip @cn-pt
-share.ilolicon.com @cn-pt
 skyey2.com @cn-pt
 soulvoice.club @cn-pt
 springsunday.net @cn-pt @website-pt
@@ -116,7 +120,6 @@ tjupt.org @cn-pt @website-pt
 full:tracker-public.tjupt.org @tracker-pt
 totheglory.im @cn-pt
 tu88.men @cn-pt
-u2.dmhy.org @cn-pt
 ubits.club @cn-pt
 ultrahd.net @cn-pt
 uploads.ltd @cn-pt
@@ -124,10 +127,10 @@ wedelphi.com @cn-pt
 wintersakura.net @cn-pt
 wukongwendao.top @cn-pt
 xingtan.one @cn-pt
-zhixing.bjtu.edu.cn @cn-pt
 zhuque.in @cn-pt
 zmpt.cc @cn-pt
 
+3arbya.info
 3changtrai.com
 3dtorrents.org
 4thd.xyz
@@ -138,6 +141,7 @@ acrossthetasman.com
 adult-cinema-network.net
 aidoru-online.me
 alpharatio.cc
+amigos-share.club
 animebytes.tv
 animeland.su
 animetorrents.me
@@ -157,6 +161,7 @@ avistaz.to
 aystorrent.ro
 back-ups.me
 bakabt.me
+beelyrics.net
 bemaniso.ws
 best-core.info
 beyond-hd.me
@@ -196,13 +201,13 @@ cinemamovies.pl
 cinematik.net
 cinemaz.to
 classix-unlimited.co.uk
-cliente.amigos-share.club
 clubhipo.com
 concertos.live
 crazyhd.com
 crnaberza.com
 cryptichaven.org
 cyclingtorrents.nl
+czech-server.com
 danishbytes.club
 darkfiles.pw
 dasunerwarte.eu
@@ -243,7 +248,6 @@ filewarez.tv
 finelite.org
 finvip.org
 fluxzone.org
-foro.unionfansub.com
 freehardmusic.com
 funfile.org
 funkytorrents.com
@@ -280,11 +284,11 @@ horrorcharnel.org
 hqmusic.info
 huntorrent.org
 ianon.app
-ice.beelyrics.net
 immortalseed.me
 indietorrents.com
 infire.si
 intotheinter.net
+iplay.ro
 iptorrents.com @website-pt
 full:localhost.stackoverflow.tech @tracker-pt
 full:routing.bgp.technology @tracker-pt
@@ -321,7 +325,6 @@ magictorrents.com
 majomparade.eu
 mdan.org
 megamixtracker.hu
-metal.iplay.ro
 metalguru.me
 metallifukinca.com
 militaryzone.info
@@ -335,6 +338,7 @@ movieworld.pics
 mteam.fr
 musebootlegs.com
 music-vid.com
+musictorrents.org
 myanonamouse.net
 mycarpathians.net
 myspleen.org
@@ -382,6 +386,7 @@ redacted.ch
 reelflix.xyz
 remastered-hd.org
 retroflix.club
+revanime.net
 revolutiontt.me
 rgfootball.net
 rstorrent.org.pl
@@ -396,6 +401,7 @@ secret-cinema.pw
 seedfile.ro
 s-f-p.dyndns.dk
 shadowthein.net
+shakaw.com.br
 shareisland.org
 sharewood.tv
 shazbat.tv
@@ -404,22 +410,24 @@ skipthecommericals.xyz
 skipthetrailers.xyz
 sktorrent.eu
 smithstorrents.co.uk
+societyglitch.com
 sor-next.tk
 speed.cd
 speedapp.io
 sportscult.org
-stalker.societyglitch.com
 superbits.org
 t3nnis.tv
-talk.tenyardtracker.com
 tapochek.net
 tasmanit.es
 tctg.in
 tctg.pm
 teamhd.org
 tekeremata.org
+tekno3d.com
+tenyardtracker.com
 teracod.net
 tgay.pro
+the-zomb.com
 theempire.click
 thegeeks.click
 themixingbowl.org
@@ -447,19 +455,12 @@ torrenteros.org
 torrenthr.org
 torrentinvites.org
 torrentland.li
-torrentleech.org
+torrentleech.org @website-pt
+full:tracker.tleechreload.org @tracker-pt
 torrentleech.pl
 torrentseeds.org
 torrent-turk.de
 totallykids.tv
-tracker.3arbya.info
-tracker.czech-server.com
-tracker.musictorrents.org
-tracker.revanime.net
-tracker.shakaw.com.br
-tracker.tekno3d.com
-tracker.uniotaku.com
-tracker.wings2heaven.net
 trackermk.com
 trancetraffic.com
 tribalmixes.com
@@ -475,7 +476,9 @@ tv-vault.me
 u2torrents.com
 uhdbits.org
 ultimatewrestlingtorrents.com
+unionfansub.com
 uniongang.net
+uniotaku.com
 unleashthecartoons.world
 unlimitz.biz
 videoteka.org
@@ -495,6 +498,5 @@ yubraca.net
 zamunda.ch
 zappateers.com
 zelka.org
-zombtracker.the-zomb.com
 zonaq.pw
 ztracker.cc
