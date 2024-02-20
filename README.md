@@ -1,3 +1,6 @@
+## 说明
+本仓库完善了 [data/category-pt](https://github.com/ixff/domain-list-community/blob/af3f50aad1a5fda74c400434580c05786f884485/data/category-pt)，只用作 [ixff/domain-list-custom](https://github.com/ixff/domain-list-custom) 的数据源。
+
 # Domain list community
 
 This project manages a list of domains, to be used as geosites for routing purpose in Project V.
