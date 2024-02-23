@@ -1,11 +1,11 @@
-# 1、本列表中的PT站域名整理自“BT站PT站汇总书签（2023-11-17）”。
-# 2、由于原出处中域名是网站访问的域名，因此本列表中的域名并不一定是tracker域名。
-# 3、只保留到二级域名，不包括地区顶级域名以及一些特殊情况。
-# 4、属性“@cn-pt”表示站点多数用户为大陆用户（所谓的“内站”与“外站”），这意味着该网站多数情况下可以直连访问。
-# 5、如果网站域名与tracker域名不一致（这里指二级域名），或者tracker域名前缀不是“tracker”，
+# 1、本列表中的PT站点域名整理自“BT站PT站汇总书签（2023-11-17）”。
+# 2、由于原出处中域名是登录网站的域名，因此本列表中的域名并不一定是tracker服务器的域名。
+# 3、如果网站域名与tracker域名不一致（这里指二级域名），或者tracker域名前缀不是“tracker”，
 #    则网站域名标注属性“@website-pt”，在下方列出对应的tracker域名并标注属性“@tracker-pt”。
 #    （即未列出以“tracker”开头的tracker域名。）
-# （第5条的内容并未全部完成。）
+# 4、除特殊情况外，登录网站的域名只保留到二级域名（域名中包含地区顶级域的一些域名保留到三级域名）。
+# 5、属性“@cn-pt”表示站点多数用户为大陆用户（所谓的“内站”与“外站”），这意味着该网站多数情况下可以直连访问。
+# 6、基于以上2、3条，本列表内容持续更新中，欢迎提issue/pull request共同维护更新。
 
 
 0ff.cc @cn-pt
@@ -49,7 +49,7 @@ hddolby.com @cn-pt
 hdfans.org @cn-pt
 hdfun.me @cn-pt
 hdhome.org @cn-pt @website-pt
-full:t.hdhome.org @tracker-pt
+full:t.hdhome.org @cn-pt @tracker-pt
 hdkyl.in @cn-pt
 hdmayi.com @cn-pt
 hdpost.top @cn-pt
@@ -61,8 +61,8 @@ hdupt.com @cn-pt
 hdvbits.com @cn-pt
 hdvideo.one @cn-pt
 hhanclub.top @cn-pt @website-pt
-full:tracker.hhan.club @tracker-pt
-full:hhanclub.top @tracker-pt
+full:tracker.hhan.club @cn-pt @tracker-pt
+full:hhanclub.top @cn-pt @tracker-pt
 hitpt.com @cn-pt
 htpt.cc @cn-pt
 full:hudbt.hust.edu.cn @cn-pt @website-pt @tracker-pt
@@ -81,10 +81,10 @@ leaves.red @cn-pt
 monikadesign.uk @cn-pt
 msg.vg @cn-pt
 m-team.cc @cn-pt @website-pt
-full:tra1.m-team.cc @tracker-pt
-m-team.io @cn-pt
-full:tra1.m-team.io @tracker-pt
-full:v6tracker.m-team.cc @tracker-pt
+full:tra1.m-team.cc @cn-pt @tracker-pt
+full:v6tracker.m-team.cc @cn-pt @tracker-pt
+m-team.io @cn-pt @website-pt
+full:tra1.m-team.io @cn-pt @tracker-pt
 nanyangpt.com @cn-pt
 neu6.edu.cn @cn-pt
 nicept.net @cn-pt
@@ -100,7 +100,7 @@ plexfm.top @cn-pt
 full:pt.btschool.club @cn-pt @website-pt @tracker-pt
 full:pt.eastgame.org @cn-pt @website-pt @tracker-pt
 full:pt.sjtu.edu.cn @cn-pt @website-pt
-full:trakcer.sjtu.edu.cn @tracker-pt
+full:trakcer.sjtu.edu.cn @cn-pt @tracker-pt
 ptcafe.club @cn-pt
 ptchdbits.co @cn-pt
 ptchina.org @cn-pt
@@ -115,11 +115,11 @@ rousi.zip @cn-pt
 skyey2.com @cn-pt
 soulvoice.club @cn-pt
 springsunday.net @cn-pt @website-pt
-full:on.springsunday.net @tracker-pt
+full:on.springsunday.net @cn-pt @tracker-pt
 srvfi.top @cn-pt
 star-space.net @cn-pt
 tjupt.org @cn-pt @website-pt
-full:tracker-public.tjupt.org @tracker-pt
+full:tracker-public.tjupt.org @cn-pt @tracker-pt
 totheglory.im @cn-pt
 tu88.men @cn-pt
 ubits.club @cn-pt
