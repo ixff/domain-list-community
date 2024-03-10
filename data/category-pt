@@ -1,4 +1,4 @@
-# 1、本列表中的PT站点域名整理自“BT站PT站汇总书签（2023-11-17）”。
+# 1、本列表中的PT站点域名整理自“PT站汇总书签”。
 # 2、由于原出处中域名是登录网站的域名，因此本列表中的域名并不一定是tracker服务器的域名。
 # 3、如果网站域名与tracker域名不一致（这里指二级域名），或者tracker域名前缀不是“tracker”，
 #    则网站域名标注属性“@website-pt”，在下方列出对应的tracker域名并标注属性“@tracker-pt”。
@@ -14,6 +14,7 @@
 3wmg.com @cn-pt
 52pt.site @cn-pt
 6a6b.com @cn-pt
+837576.xyz @cn-pt
 agsvpt.com @cn-pt
 audiences.me @cn-pt
 azusa.wiki @cn-pt
@@ -32,6 +33,7 @@ discfan.net @cn-pt
 dmhy.org @cn-pt
 dragonhd.xyz @cn-pt
 et8.org @cn-pt
+ecustpt.eu.org @cn-pt
 fsm.name @cn-pt
 gamegamept.com @cn-pt
 gamerapt.link @cn-pt
@@ -39,6 +41,7 @@ greatposterwall.com @cn-pt
 gtk.pw @cn-pt
 haidan.video @cn-pt
 hares.top @cn-pt
+hd.ai @cn-pt
 hd4fans.org @cn-pt
 hdarea.club @cn-pt
 hdatmos.club @cn-pt
@@ -49,6 +52,7 @@ hddolby.com @cn-pt
 hdfans.org @cn-pt
 hdfun.me @cn-pt
 hdhome.org @cn-pt @website-pt
+hdkyl.in @cn-pt
 full:t.hdhome.org @cn-pt @tracker-pt
 hdkyl.in @cn-pt
 hdmayi.com @cn-pt
@@ -111,7 +115,9 @@ ptneko.com @cn-pt
 ptsbao.club @cn-pt
 pttime.org @cn-pt
 ptvicomo.net @cn-pt
+qingwa.pro @cn-pt
 rousi.zip @cn-pt
+sharkpt.net @cn-pt
 skyey2.com @cn-pt
 soulvoice.club @cn-pt
 springsunday.net @cn-pt @website-pt
@@ -181,7 +187,7 @@ bittorrentfiles.me
 bitturk.net
 bitvaulttorrent.com
 bluebird-hd.org
-blutopia.xyz
+blutopia.cc
 bootytape.com
 brasiltracker.org
 breathetheword.org.uk
@@ -211,7 +217,6 @@ cryptichaven.org
 cyclingtorrents.nl
 czech-server.com
 danishbytes.club
-darkfiles.pw
 dasunerwarte.eu
 datalinkek.com
 datascene.xyz
@@ -411,7 +416,6 @@ siambit.me
 skipthecommericals.xyz
 skipthetrailers.xyz
 sktorrent.eu
-smithstorrents.co.uk
 societyglitch.com
 sor-next.tk
 speed.cd
@@ -447,7 +451,6 @@ tmghub.org
 tntracker.org
 tophos.org
 tornado.si
-torrent.ai
 torrent.lt
 torrentbd.com
 torrentbytes.net
@@ -455,7 +458,6 @@ torrentday.com
 torrentdd.com
 torrenteros.org
 torrenthr.org
-torrentinvites.org
 torrentland.li
 torrentleech.org @website-pt
 full:tracker.tleechreload.org @tracker-pt
@@ -465,12 +467,12 @@ torrent-turk.de
 totallykids.tv
 trackermk.com
 trancetraffic.com
+trendfilm.net
 tribalmixes.com
 truegear.net
 tsctracker.org
 ttsweb.org
 tt-torrent.com
-turkseed.com
 turktorrent.us
 tvchaosuk.com
 tvstore.me
@@ -487,6 +489,7 @@ videoteka.org
 web4sync.com
 white-angel.hu
 wigornot.com
+wings2heaven.net
 worldboxingvideoarchive.com
 xbtmusic.org
 xbytesv2.li
@@ -497,7 +500,7 @@ xwt-classics.net
 yggtorrent.wtf
 youiv.info
 yubraca.net
-zamunda.ch
+zamunda.games
 zappateers.com
 zelka.org
 zonaq.pw
