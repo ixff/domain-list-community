@@ -1,4 +1,4 @@
-# 1、本列表中的PT站点域名整理自“PT站汇总书签（2024-03-03）”。
+# 1、本列表中的PT站点域名整理自“PT站汇总书签”。
 # 2、由于原出处中域名是登录网站的域名，因此本列表中的域名并不一定是tracker服务器的域名。
 # 3、如果网站域名与tracker域名不一致（这里指二级域名），或者tracker域名前缀不是“tracker”，
 #    则网站域名标注属性“@website-pt”，在下方列出对应的tracker域名并标注属性“@tracker-pt”。
@@ -31,6 +31,7 @@ dhtclub.com @cn-pt
 dicmusic.com @cn-pt
 discfan.net @cn-pt
 dmhy.org @cn-pt
+dogpt.cc @cn-pt
 dragonhd.xyz @cn-pt
 et8.org @cn-pt
 ecustpt.eu.org @cn-pt
