@@ -1,5 +1,14 @@
 ## 说明
-- 本仓库完善了 [category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt)，只用作 [ixff/domain-list-custom](https://github.com/ixff/domain-list-custom) 的数据源，成品请到 [ixff/v2ray-rules-dat](https://github.com/ixff/v2ray-rules-dat) | [ixff/clash-rules](https://github.com/ixff/clash-rules) | [ixff/sing-geosite](https://github.com/ixff/sing-geosite) 下载。
+- 本仓库完善了 [category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt)，只用作 [ixff/domain-list-custom](https://github.com/ixff/domain-list-custom) 的数据源。
+  
+  成品请到以下仓库下载：
+
+  成品请到以下仓库下载：
+  
+  成品请到以下仓库下载：
+  - [ixff/v2ray-rules-dat](https://github.com/ixff/v2ray-rules-dat)
+  - [ixff/clash-rules](https://github.com/ixff/clash-rules)
+  - [ixff/sing-geosite](https://github.com/ixff/sing-geosite)
 - 如果你发现缺少某些站点域名或其tracker域名，请[提issue](https://github.com/ixff/domain-list-community/issues/new?assignees=&labels=&projects=&template=%E5%9F%9F%E5%90%8D%E6%9B%B4%E6%96%B0.md&title=%E3%80%90%E5%9F%9F%E5%90%8D%E6%9B%B4%E6%96%B0%E3%80%91XXX)，维护该列表需要大家的共同努力。
 
 # Domain list community
