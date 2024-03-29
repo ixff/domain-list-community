@@ -1,0 +1,32 @@
+name: Sync Fork
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * *'  # Schedule it to run daily, adjust as needed
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+
+      - name: Set up Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git remote add upstream 'https://github.com/v2fly/domain-list-community.git'
+
+      - name: Fetch upstream changes
+        run: git fetch upstream master
+
+      - name: rebase upstream changes
+        run: |
+          git rebase upstream/master -X theirs
+
+      - name: Push changes to fork
+        run: git push -f

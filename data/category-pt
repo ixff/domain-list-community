@@ -1,62 +1,509 @@
-audiences.me
+# 1、本列表中的PT站点域名整理自“PT站汇总书签”。
+# 2、由于原出处中域名是登录网站的域名，因此本列表中的域名并不一定是tracker服务器的域名。
+# 3、如果网站域名与tracker域名不一致（这里指二级域名），或者tracker域名前缀不是“tracker”，
+#    则网站域名标注属性“@website-pt”，在下方列出对应的tracker域名并标注属性“@tracker-pt”。
+#    （即未列出以“tracker”开头的tracker域名。）
+# 4、除特殊情况外，登录网站的域名只保留到二级域名（域名中包含地区顶级域的一些域名保留到三级域名）。
+# 5、属性“@cn-pt”表示站点多数用户为大陆用户（所谓的“内站”与“外站”），这意味着该网站多数情况下可以直连访问。
+# 6、基于以上2、3条，本列表内容持续更新中，欢迎提issue/pull request共同维护更新。
+
+
+0ff.cc @cn-pt
+1ptba.com @cn-pt
+2xfree.org @cn-pt
+3wmg.com @cn-pt
+52pt.site @cn-pt
+6a6b.com @cn-pt
+837576.xyz @cn-pt
+agsvpt.com @cn-pt
+audiences.me @cn-pt
+azusa.wiki @cn-pt
+beitai.pt @cn-pt
+biho.xyz @cn-pt
+bitpt.cn @cn-pt
+bjtu.edu.cn @cn-pt
+byr.pt @cn-pt
+carpt.net @cn-pt
+ccfbits.org @cn-pt
+cyanbug.net @cn-pt
+dajiao.cyou @cn-pt
+dhtclub.com @cn-pt
+dicmusic.com @cn-pt
+discfan.net @cn-pt
+dmhy.org @cn-pt
+dogpt.cc @cn-pt
+dragonhd.xyz @cn-pt
+et8.org @cn-pt
+ecustpt.eu.org @cn-pt
+fsm.name @cn-pt
+gamegamept.com @cn-pt
+gamerapt.link @cn-pt
+greatposterwall.com @cn-pt
+gtk.pw @cn-pt
+haidan.video @cn-pt
+hares.top @cn-pt
+hd.ai @cn-pt
+hd4fans.org @cn-pt
+hdarea.club @cn-pt @website-pt
+full:a.hdarea.club @cn-pt @tracker-pt
+hdatmos.club @cn-pt
+hdbd.us @cn-pt
+hdchina.org @cn-pt
+hdcity.city @cn-pt
+hddolby.com @cn-pt
+hdfans.org @cn-pt
+hdfun.me @cn-pt
+hdhome.org @cn-pt @website-pt
+full:t.hdhome.org @cn-pt @tracker-pt
+hdkyl.in @cn-pt
+hdmayi.com @cn-pt
+hdpost.top @cn-pt
+hdpt.xyz @cn-pt
+hdroute.org @cn-pt
+hdsky.me @cn-pt
+hdtime.org @cn-pt
+hdupt.com @cn-pt
+hdvbits.com @cn-pt
+hdvideo.one @cn-pt
+hhanclub.top @cn-pt @website-pt @tracker-pt
+full:tracker.hhan.club @cn-pt @tracker-pt
+hitpt.com @cn-pt
+htpt.cc @cn-pt
+full:hudbt.hust.edu.cn @cn-pt @website-pt @tracker-pt
+icc2022.com @cn-pt
+ihdbits.me @cn-pt
+ilolicon.com @cn-pt
+inswan.fun @cn-pt
+itzmx.com @cn-pt
+joyhd.net @cn-pt
+kamept.com @cn-pt
+keepfrds.com @cn-pt
+kelu.one @cn-pt
+kimoji.club @cn-pt
+kufei.org @cn-pt
+leaves.red @cn-pt
+monikadesign.uk @cn-pt
+msg.vg @cn-pt
+m-team.cc @cn-pt @website-pt
+full:tra1.m-team.cc @cn-pt @tracker-pt
+full:v6tracker.m-team.cc @cn-pt @tracker-pt
+m-team.io @cn-pt @website-pt
+full:tra1.m-team.io @cn-pt @tracker-pt
+nanyangpt.com @cn-pt
+neu6.edu.cn @cn-pt
+nicept.net @cn-pt
+okfun.org @cn-pt
+okpt.net @cn-pt
+open.cd @cn-pt @website-pt
+full:www.open.cd @cn-pt @tracker-pt
+full:ipv4.open.cd @cn-pt @tracker-pt
+oshen.win @cn-pt
+ourbits.club @cn-pt @website-pt @tracker-pt
+ourdisc.net @cn-pt
+pandapt.net @cn-pt
+piggo.me @cn-pt
+plexfm.top @cn-pt
+full:pt.btschool.club @cn-pt @website-pt @tracker-pt
+full:pt.eastgame.org @cn-pt @website-pt @tracker-pt
+full:pt.sjtu.edu.cn @cn-pt @website-pt
+full:trakcer.sjtu.edu.cn @cn-pt @tracker-pt
+ptcafe.club @cn-pt
+ptchdbits.co @cn-pt
+ptchina.org @cn-pt
+pterclub.com @cn-pt
+pthome.net @cn-pt
+ptlsp.com @cn-pt
+ptneko.com @cn-pt
+ptsbao.club @cn-pt
+pttime.org @cn-pt
+ptvicomo.net @cn-pt
+qingwa.pro @cn-pt
+rousi.zip @cn-pt
+sharkpt.net @cn-pt
+skyey2.com @cn-pt
+soulvoice.club @cn-pt
+springsunday.net @cn-pt @website-pt
+full:on.springsunday.net @cn-pt @tracker-pt
+srvfi.top @cn-pt
+star-space.net @cn-pt
+tjupt.org @cn-pt @website-pt
+full:tracker-public.tjupt.org @cn-pt @tracker-pt
+totheglory.im @cn-pt
+tu88.men @cn-pt
+ubits.club @cn-pt
+ultrahd.net @cn-pt
+uploads.ltd @cn-pt
+wedelphi.com @cn-pt
+wintersakura.net @cn-pt
+wukongwendao.top @cn-pt
+xingtan.one @cn-pt
+zhuque.in @cn-pt
+zmpt.cc @cn-pt
+
+3arbya.info
+3changtrai.com
+3dtorrents.org
+4thd.xyz
+abn.lol
+abtorrents.me
+acid-lounge.org.uk
+acrossthetasman.com
+adult-cinema-network.net
+aidoru-online.me
+alpharatio.cc
+amigos-share.club
+animebytes.tv
+animeland.su
+animetorrents.me
+ansktracker.net
+anthelion.me
+appzuniverse.org
+arabicsource.net
+arabscene.org
+arab-torrents.net
+arenaelite.eu
+artofmisdirection.com
+asiancinema.me
+asiandvdclub.org
+audionews.org
+aussierul.es
 avistaz.to
+aystorrent.ro
+back-ups.me
+bakabt.me
+beelyrics.net
+bemaniso.ws
+best-core.info
 beyond-hd.me
 bibliotik.me
-bitpt.cn
+bigbbs.eu
+bitgamer.ch
+bit-hdtv.com
+bithorlo.info
+bithumen.be
+bitpalace.cc
+bitporn.eu
+bitsexy.org
+bitspyder.net
+bittorrentfiles.me
+bitturk.net
+bitvaulttorrent.com
+bluebird-hd.org
 blutopia.cc
+bootytape.com
+brasiltracker.org
+breathetheword.org.uk
 broadcasthe.net
-bt.byr.cn
-byr.pt
-ccfbits.org
-chdbits.co
+broadcity.in
+brokenstones.is
+brsociety.club
+btarg.com.ar
+btnext.com
+bwtorrents.tv
+carp-hunter.hu
+cartoonchaos.org
+cathode-ray.tube
+cgpeers.to
+cheggit.me
+chilebt.com
+cinemageddon.net
+cinemamovies.pl
+cinematik.net
 cinemaz.to
-dicmusic.com
-eastgame.org
-et8.org
+classix-unlimited.co.uk
+clubhipo.com
+concertos.live
+crazyhd.com
+crnaberza.com
+cryptichaven.org
+cyclingtorrents.nl
+czech-server.com
+danishbytes.club
+dasunerwarte.eu
+datalinkek.com
+datascene.xyz
+dedbit.com
+deepbassnine.com
+desitorrents.tv
+diablotorrent.net
+digitalcore.club
+dimeadozen.org
+divteam.com
+dreamingtree.org
+drugari.org
+ebooks-shares.org
+electro-torrent.pl
+eliteunitedcrew.org
+empornium.is
+estone.cc
+ewerest.hu
+exigomusic.org
+exitorrent.eu
 exoticaz.to
-filelist.io
-greatposterwall.com
+extremlymtorrents.ws
+facefromouter.space
+fakedoor.store
+falkonvision-team.com
+fano.in
+fantastiko.space
+fappaizuri.me
+fastscene.net
+feedurneed.xyz
+femdomcult.org
+filelist.io @website-pt
+full:reactor.filelist.io @tracker-pt
+file-tracker.net
+filewarez.tv
+finelite.org
+finvip.org
+fluxzone.org
+freehardmusic.com
+funfile.org
+funkytorrents.com
+funsharing.net
+futuretorrent.org
+fuzer.me
+gardencenterstage.org
+gaytor.rent
+gay-torrents.net
+gay-torrents.org
+gaytracker.ru
+gazellegames.net
+generalfilm.org
+gigatorrents.ws
+gimmepeers.com
+girotorrent.org
+good73.net
+greekdiamond.info
+greek-team.cc
+happyfappy.org
+hawke.uno
 hdbits.org
-hdchina.org
-hdcity.city
-hdfans.org
-hdhome.org
-hdsky.me
-hdtime.org
-hhanclub.top
-hudbt.hust.edu.cn
-iptorrents.com
+hd-cztorrent.cz
+hdf.world
+hd-olimpo.club
+hd-only.org
+hd-space.org
+hd-torrents.org
+hd-united.vn
+hebits.net
+hellashut.net
+homeporntorrents.club
+horrorcharnel.org
+hqmusic.info
+huntorrent.org
+ianon.app
+immortalseed.me
+indietorrents.com
+infire.si
+intotheinter.net
+iplay.ro
+iptorrents.com @website-pt
+full:localhost.stackoverflow.tech @tracker-pt
+full:routing.bgp.technology @tracker-pt
+full:ssl.empirehost.me @tracker-pt
+itatorrents.xyz
+janemusic.org
+jme-reunit3d.de
 jpopsuki.eu
 jptv.club
-keepfrds.com
-lemonhd.org
-m-team.cc
-m-team.io
+karagarga.in
+kinozal.tv
+kraytracker.com
+krazyzone.net
+kufirc.com
+laidbackmanor.xyz
+last-torrents.org
+lat-team.com
+learnbits.me
+learnflakes.net
+leech24.net
+lesaloonv2-0.xyz
+lesbians4u.org
+libble.me
+libranet.org
+limit-of-eden.com
+linkomanija.net
+losslessclub.com
+lp-bits.com
+lst.gg
+lztr.me
+m2g.link
+madsrevolution.net
+magictorrents.com
+majomparade.eu
+mdan.org
+megamixtracker.hu
+metalguru.me
+metallifukinca.com
+militaryzone.info
+milkie.cc
+mma-torrents.com
+mma-tracker.net
+mnvv2.info
+mojblink.si
 morethantv.me
-nanyangpt.com
-npupt.com
-open.cd
-ourbits.club
+movieworld.pics
+mteam.fr
+musebootlegs.com
+music-vid.com
+musictorrents.org
+myanonamouse.net
+mycarpathians.net
+myspleen.org
+nebulance.io
+nethd.org
+newinsane.info
+new-retro.eu
+ninjacentral.co.za
+norbits.net
+nordichd.org
+ntelogo.org
+ohmenarikgi.la
+oldtoons.world
+orpheus.network
+oscarworld.xyz
+p2pbg.com
+pandacd.io
 passthepopcorn.me
+pb.wtf
+peers.fm
+piratethenet.org
+pixelcove.me
+pixelhd.me
+polishsource.cz
+pornbay.org
+pornolab.net
+portugas.org
 privatehd.to
-pt.btschool.club
-pt.eastgame.org
-pt.hd4fans.org
-pt.keepfrds.com
-pt.nwsuaf6.edu.cn
-pt.sjtu.edu.cn
-pt.soulvoice.club
-pt.xauat.edu.cn
-pterclub.com
-pthome.net
-ptsbao.club
-sharkpt.net
-skyey2.com
-springsunday.net
-tju.pt
-tjupt.org
-torrentleech.org
-totheglory.im
-u2.dmhy.org
+proaudiotorrents.org
+psyreactor.com
+pte.nu
+ptfiles.net
+punck-tracker.net
+punktorrents.com
+puntotorrent.com
+pussytorrents.org
+pwtorrents.net
+r3vuk.wtf
+racing4everyone.eu
+racingfor.me
+ransackedcrew.info
+rareshare2.me
+reassu.me
+redacted.ch
+reelflix.xyz
+remastered-hd.org
+retroflix.club
+revanime.net
+revolutiontt.me
+rgfootball.net
+rstorrent.org.pl
+ru-board.com
+rutracker.org
+satclubbing.club
+scenehd.org
+scene-rush.com
+scenetime.com
+seatracker.ru
+secret-cinema.pw
+seedfile.ro
+s-f-p.dyndns.dk
+shadowthein.net
+shakaw.com.br
+shareisland.org
+sharewood.tv
+shazbat.tv
+siambit.me
+skipthecommericals.xyz
+skipthetrailers.xyz
+sktorrent.eu
+societyglitch.com
+sor-next.tk
+speed.cd
+speedapp.io
+sportscult.org
+superbits.org
+t3nnis.tv
+tapochek.net
+tasmanit.es
+tctg.in
+tctg.pm
+teamhd.org
+tekeremata.org
+tekno3d.com
+tenyardtracker.com
+teracod.net
+tgay.pro
+the-zomb.com
+theempire.click
+thegeeks.click
+themixingbowl.org
+theoccult.click
+theoldschool.cc
+theplace.click
+therebels.tv
+theshinning.me
+theshow.click
+thetradersden.org
+thevault.click
+thismight.be
+tigers-dl.net
+tmghub.org
+tntracker.org
+tophos.org
+tornado.si
+torrent.lt
+torrentbd.com
+torrentbytes.net
+torrentday.com
+torrentdd.com
+torrenteros.org
+torrenthr.org
+torrentland.li
+torrentleech.org @website-pt
+full:tracker.tleechreload.org @tracker-pt
+torrentleech.pl
+torrentseeds.org
+torrent-turk.de
+totallykids.tv
+trackermk.com
+trancetraffic.com
+trendfilm.net
+tribalmixes.com
+truegear.net
+tsctracker.org
+ttsweb.org
+tt-torrent.com
+turktorrent.us
+tvchaosuk.com
+tvstore.me
+tv-vault.me
+u2torrents.com
 uhdbits.org
-zhuque.in
+ultimatewrestlingtorrents.com
+unionfansub.com
+uniongang.net
+uniotaku.com
+unleashthecartoons.world
+unlimitz.biz
+videoteka.org
+web4sync.com
+white-angel.hu
+wigornot.com
+wings2heaven.net
+worldboxingvideoarchive.com
+xbtmusic.org
+xbytesv2.li
+x-ite.me
+xspeeds.eu
+xtremewrestlingtorrents.net
+xwt-classics.net
+yggtorrent.wtf
+youiv.info
+yubraca.net
+zamunda.games
+zappateers.com
+zelka.org
+zonaq.pw
+ztracker.cc
