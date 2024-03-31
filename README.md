@@ -1,11 +1,6 @@
 ## 说明
-- 本仓库完善了 [category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt)，只用作 [ixff/domain-list-custom](https://github.com/ixff/domain-list-custom) 的数据源。
-  
-  成品请到以下仓库下载：
-
-  成品请到以下仓库下载：
-  
-  成品请到以下仓库下载：
+- 本仓库完善了 [category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt)，几乎包括了全部的PT内站和外站的域名，以方便设置 Tracker 直连规则。
+- 本仓库构建的路由规则文件只用作 [ixff/domain-list-custom](https://github.com/ixff/domain-list-custom) 的数据源，不建议直接使用，**建议使用以下对应仓库中的路由规则文件**，它们基于本仓库的规则加强而来。
   - [ixff/v2ray-rules-dat](https://github.com/ixff/v2ray-rules-dat)
   - [ixff/clash-rules](https://github.com/ixff/clash-rules)
   - [ixff/sing-geosite](https://github.com/ixff/sing-geosite)
