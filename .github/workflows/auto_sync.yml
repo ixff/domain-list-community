@@ -1,0 +1,54 @@
+name: Sync with Upstream
+
+on:
+  workflow_dispatch: # Trigger manually
+  schedule: # Optionally trigger at a specific time
+    - cron: "0 2 * * *"
+
+jobs:
+  rebase:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v4
+      with:
+        ref: master
+        fetch-depth: 0
+        token: ${{ secrets.WORKFLOW_TOKEN }}
+
+    - name: Configure Git
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+    - name: Add upstream remote
+      run: |
+        git remote add upstream https://github.com/v2fly/domain-list-community
+        git fetch upstream
+
+    - name: Rebase onto upstream/master
+      run: |
+
+        git rebase upstream/master || {
+          echo "Checking for conflicts..."
+          if git status --porcelain | grep '^UU '; then
+            git status --porcelain | grep '^UU ' | cut -c 4- | while read -r filename; do
+              echo "Resolving conflict in $filename by choosing 'theirs' version"
+              git checkout --theirs -- "$filename"
+              git add "$filename"
+            done
+            git rebase --continue || {
+              echo "Rebase failed during continue. Resolve conflicts manually."
+              exit 1
+            }
+          else
+            echo "No conflicts detected."
+          fi
+        }
+
+    - name: Push changes to origin
+      run: |
+        git push origin master --force-with-lease
+
+
