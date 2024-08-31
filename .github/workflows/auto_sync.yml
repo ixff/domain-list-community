@@ -27,7 +27,27 @@ jobs:
         git remote add upstream https://github.com/v2fly/domain-list-community
         git fetch upstream
 
+        behind_count=$(git rev-list --right-only --count HEAD...upstream/master)
+        echo "Commits behind upstream: $behind_count"
+        # if [ "$ahead_count" -eq 0 ] && [ "$behind_count" -eq 0 ]; then
+        #   echo "The fork is up to date with the upstream."
+        #   exit 0
+        # else
+        #     echo "The fork is behind by $behind_count commits and ahead by $ahead_count commits."
+        # fi
+        # if [ "$ahead_count" -ne 0 ] || [ "$behind_count" -ne 0 ]; then
+        #   echo "The repository is not in sync with upstream."
+        #   # You can add notifications here if needed
+        # fi
+        if [ "$behind_count" -eq 0 ]; then
+          echo "The fork is not behind the upstream."
+          echo "DoRebase=false" >> $GITHUB_ENV
+        else
+          echo "DoRebase=true" >> $GITHUB_ENV
+        fi
+
     - name: Rebase onto upstream/master
+      if: ${{ env.DoRebase == 'true' }}
       run: |
 
         git rebase upstream/master || {
@@ -48,6 +68,7 @@ jobs:
         }
 
     - name: Push changes to origin
+      if: ${{ env.DoRebase == 'true' }}    
       run: |
         git push origin master --force-with-lease
 
