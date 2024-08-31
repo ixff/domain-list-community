@@ -1,0 +1,133 @@
+name: Delete older releases and workflows
+
+on:
+  # Trigger manually via the Actions tab
+  workflow_dispatch:
+    inputs:
+      delete_releases:
+        description: "Delete Releases file?"
+        required: true
+        default: true
+        type: boolean
+      delete_tags:
+        description: "Delete related Tags?"
+        required: false
+        default: true
+        type: boolean
+      prerelease_option:
+        description: "Whether to differentiate pre-release."
+        required: false
+        default: "all"
+        type: choice
+        options:
+          - all
+          - true
+          - false
+      releases_keep_latest:
+        description: "How many latest releases to keep."
+        required: false
+        default: "30"
+        type: choice
+        options:
+          - 30
+          - 20
+          - 10
+          - 9
+          - 8
+          - 7
+          - 6
+          - 5
+          - 4
+          - 3
+          - 2
+          - 1
+          - 0
+      releases_keep_keyword:
+        description: "Keyword of the keep releases."
+        required: false
+        default: ""
+      delete_workflows:
+        description: "Delete workflows records?"
+        required: true
+        default: true
+        type: boolean
+      workflows_keep_day:
+        description: "Days to keep workflows."
+        required: false
+        default: "30"
+        type: choice
+        options:
+          - 30
+          - 20
+          - 10
+          - 9
+          - 8
+          - 7
+          - 6
+          - 5
+          - 4
+          - 3
+          - 2
+          - 1
+          - 0
+      workflows_keep_keyword:
+        description: "keywords for keep workflows."
+        required: false
+        default: ""
+      out_log:
+        description: "Output detailed JSON logs."
+        required: false
+        default: true
+        type: boolean
+
+  # Trigger automatically at midnight UTC every day
+  schedule:
+    - cron: '0 12 * * *'  # Every day at midnight UTC
+
+env:
+  TZ: America/New_York
+  # Default values for scheduled runs
+  DELETE_RELEASES: true
+  DELETE_TAGS: true
+  PRERELEASE_OPTION: "all"
+  RELEASES_KEEP_LATEST: "30"
+  RELEASES_KEEP_KEYWORD: ""
+  DELETE_WORKFLOWS: true
+  WORKFLOWS_KEEP_DAY: "30"
+  WORKFLOWS_KEEP_KEYWORD: ""
+  OUT_LOG: true
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Initialization environment
+        id: init
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          if sudo timedatectl set-timezone "${TZ}"; then
+            echo "Timezone set to ${TZ}"
+            echo "status=success" >> ${GITHUB_OUTPUT}
+          else
+            echo "Failed to set timezone" >&2
+            exit 1
+          fi
+
+      - name: Delete releases and workflows runs
+        uses: ophub/delete-releases-workflows@main
+        with:
+          delete_releases: ${{ github.event_name == 'workflow_dispatch' && inputs.delete_releases || env.DELETE_RELEASES }}
+          delete_tags: ${{ github.event_name == 'workflow_dispatch' && inputs.delete_tags || env.DELETE_TAGS }}
+          prerelease_option: ${{ github.event_name == 'workflow_dispatch' && inputs.prerelease_option || env.PRERELEASE_OPTION }}
+          releases_keep_latest: ${{ github.event_name == 'workflow_dispatch' && inputs.releases_keep_latest || env.RELEASES_KEEP_LATEST }}
+          releases_keep_keyword: ${{ github.event_name == 'workflow_dispatch' && inputs.releases_keep_keyword || env.RELEASES_KEEP_KEYWORD }}
+          delete_workflows: ${{ github.event_name == 'workflow_dispatch' && inputs.delete_workflows || env.DELETE_WORKFLOWS }}
+          workflows_keep_day: ${{ github.event_name == 'workflow_dispatch' && inputs.workflows_keep_day || env.WORKFLOWS_KEEP_DAY }}
+          workflows_keep_keyword: ${{ github.event_name == 'workflow_dispatch' && inputs.workflows_keep_keyword || env.WORKFLOWS_KEEP_KEYWORD }}
+          out_log: ${{ github.event_name == 'workflow_dispatch' && inputs.out_log || env.OUT_LOG }}
+          gh_token: ${{ secrets.WORKFLOW_TOKEN }}
