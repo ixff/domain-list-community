@@ -1,0 +1,35 @@
+name: Delete Tag
+
+on:
+  workflow_dispatch:
+    inputs:
+      keyword:
+        description: "any-keyword-to-look-while-deleting"
+        required: true
+        default: "beta"
+      deletetype:
+        description: "tag/release/tr"
+        required: true
+        default: tag
+        type: choice
+        options:
+          - tag
+          - release
+          - tr
+   
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Execute Delete Release/Tag action
+        uses: ShivamHS/delete-tag@v1
+        with:
+          token: ${{ secrets.WORKFLOW_TOKEN }} #generate new PAT and give delete access to it
+          repo:  ${{ github.event.repository.name }} 
+          owner: ${{ github.repository_owner }}
+          keyword: ${{ inputs.keyword }}
+          deletetype: ${{ inputs.deletetype }} #tag: will delete tags only; release: will delete releases only; tr: will delete both releases and tags
