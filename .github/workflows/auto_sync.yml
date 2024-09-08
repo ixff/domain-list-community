@@ -49,7 +49,7 @@ jobs:
     - name: Rebase onto upstream/master
       if: ${{ env.DoRebase == 'true' }}
       run: |
-
+        # git rebase upstream/master -X theirs
         git rebase upstream/master || {
           echo "Checking for conflicts..."
           if git status --porcelain | grep '^UU '; then
@@ -58,6 +58,7 @@ jobs:
               git checkout --theirs -- "$filename"
               git add "$filename"
             done
+            git commit -m "update category-pt ('git rebase' commit by github-actions[bot] on $(date +'%Y-%m-%d'))"
             git rebase --continue || {
               echo "Rebase failed during continue. Resolve conflicts manually."
               exit 1
