@@ -5,6 +5,7 @@
 #    （以“tracker”开头的tracker域名无需单列。）
 # 4、除特殊情况外，登录网站的域名只保留到二级域名（域名中包含地区顶级域的一些域名保留到三级域名）。
 # 5、属性“@cn-pt”表示站点多数用户为大陆用户（所谓的“内站”与“外站”），这意味着该网站多数情况下可以直连访问。
+# 6、属性“@!cn”表示网站ban cn ip。
 # 6、基于以上2、3条，本列表内容持续更新中，欢迎提issue/pull request共同维护更新。
 
 keyword:tracker
@@ -176,7 +177,7 @@ asiancinema.me
 asiandvdclub.org
 audionews.org
 aussierul.es
-avistaz.to
+avistaz.to @!cn
 aystorrent.ro
 back-ups.me
 bakabt.me
@@ -218,7 +219,7 @@ chilebt.com
 cinemageddon.net
 cinemamovies.pl
 cinematik.net
-cinemaz.to
+cinemaz.to @!cn
 classix-unlimited.co.uk
 clubhipo.com
 concertos.live
@@ -248,7 +249,7 @@ estone.cc
 ewerest.hu
 exigomusic.org
 exitorrent.eu
-exoticaz.to
+exoticaz.to @!cn
 extremlymtorrents.ws
 facefromouter.space
 fakedoor.store
