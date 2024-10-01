@@ -13,7 +13,7 @@
 full:1ptba.com @cn-pt @website-pt @tracker-pt
 2xfree.org @cn-pt
 3wmg.com @cn-pt
-52pt.site @cn-pt
+52pt.site @cn-pt @website-pt @tracker-pt
 6a6b.com @cn-pt
 agsvpt.com @cn-pt
 audiences.me @cn-pt
@@ -45,7 +45,8 @@ gamegamept.com @cn-pt
 gamerapt.link @cn-pt
 greatposterwall.com @cn-pt
 gtk.pw @cn-pt
-haidan.video @cn-pt
+haidan.video @cn-pt @website-pt
+full:announce.haidan.video @cn-pt @tracker-pt
 hares.top @cn-pt
 hd.ai @cn-pt
 hd4fans.org @cn-pt
@@ -56,7 +57,7 @@ hdbd.us @cn-pt
 hdchina.org @cn-pt
 hdcity.city @cn-pt
 hddolby.com @cn-pt
-hdfans.org @cn-pt
+hdfans.org @cn-pt @website-pt @tracker-pt
 hdfun.me @cn-pt
 hdhome.org @cn-pt @website-pt
 full:t.hdhome.org @cn-pt @tracker-pt
@@ -92,7 +93,7 @@ kamept.com @cn-pt
 keepfrds.com @cn-pt
 kelu.one @cn-pt
 kimoji.club @cn-pt
-kufei.org @cn-pt
+kufei.org @cn-pt @website-pt @tracker-pt
 leaves.red @cn-pt
 monikadesign.uk @cn-pt
 msg.vg @cn-pt
@@ -103,8 +104,9 @@ full:tra1.m-team.io @cn-pt @tracker-pt
 full:ipv6-tracker.m-team.io @cn-pt @tracker-pt
 nanyangpt.com @cn-pt
 neu6.edu.cn @cn-pt
-nicept.net @cn-pt
-okfun.org @cn-pt
+nicept.net @cn-pt @website-pt
+full:www.nicept.net @cn-pt @tracker-pt
+pt.okfun.org @cn-pt @website-pt @tracker-pt # dead site
 okpt.net @cn-pt
 open.cd @cn-pt @website-pt
 full:www.open.cd @cn-pt @tracker-pt
@@ -125,19 +127,19 @@ chddiy.xyz @cn-pt @tracker-pt
 full:chdbits.xyz @cn-pt @tracker-pt
 full:tracker.rainbowisland.co @cn-pt @tracker-pt
 ptchina.org @cn-pt
-pterclub.com @cn-pt
+pterclub.com @cn-pt @website-pt
 pthome.net @cn-pt
 ptlsp.com @cn-pt
 ptneko.com @cn-pt
 ptsbao.club @cn-pt
 pttime.org @cn-pt
-ptvicomo.net @cn-pt
+ptvicomo.net @cn-pt @website-pt
 qingwa.pro @cn-pt
 qhstudio.fun @cn-pt
 rousi.zip @cn-pt
 sharkpt.net @cn-pt
 skyey2.com @cn-pt
-full:pt.soulvoice.club @cn-pt @website-pt @tracker-pt # 聆音
+full:pt.soulvoice.club @cn-pt @website-pt @tracker-pt
 springsunday.net @cn-pt @website-pt
 full:on.springsunday.net @cn-pt @tracker-pt
 srvfi.top @cn-pt
@@ -153,6 +155,7 @@ wedelphi.com @cn-pt
 wintersakura.net @cn-pt
 wukongwendao.top @cn-pt
 xingtan.one @cn-pt
+yemapt.org @cn-pt @website-pt
 zhuque.in @cn-pt
 zmpt.cc @cn-pt
 
