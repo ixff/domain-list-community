@@ -1,4 +1,4 @@
-# 1、本列表中的PT站点域名整理自“PT站汇总书签”。
+# 1、基于“PT站汇总书签”(已停止更新)，现手动同步PTPP sites。
 # 2、由于原出处中域名是登录网站的域名，因此本列表中的域名并不一定是tracker服务器的域名。
 # 3、如果网站域名与tracker域名不一致（这里指二级域名），或者tracker域名前缀不是“tracker”，
 #    则网站域名标注属性“@website-pt”，在下方列出对应的tracker域名并标注属性“@tracker-pt”。
@@ -28,7 +28,7 @@ carpt.net @cn-pt @website-pt
 ccfbits.org @cn-pt
 crabpt.vip @cn-pt
 cyanbug.net @cn-pt
-dajiao.cyou @cn-pt
+dajiao.cyou @cn-pt # dead site
 dhtclub.com @cn-pt
 dicmusic.com @cn-pt
 discfan.net @cn-pt
@@ -96,6 +96,7 @@ keepfrds.com @cn-pt
 kimoji.club @cn-pt
 kufei.org @cn-pt @website-pt @tracker-pt
 leaves.red @cn-pt
+lemonhd.club @cn-pt
 monikadesign.uk @cn-pt
 msg.vg @cn-pt
 m-team.cc @cn-pt @website-pt
@@ -106,6 +107,7 @@ full:ipv6-tracker.m-team.io @cn-pt @tracker-pt
 nanyangpt.com @cn-pt
 neu6.edu.cn @cn-pt
 nicept.net @cn-pt @website-pt
+npupt.com @cn-pt
 full:www.nicept.net @cn-pt @tracker-pt
 pt.okfun.org @cn-pt @website-pt @tracker-pt # dead site
 okpt.net @cn-pt
@@ -115,6 +117,7 @@ full:ipv4.open.cd @cn-pt @tracker-pt
 oshen.win @cn-pt
 our.kelu.one @cn-pt @website-pt @tracker-pt
 ourbits.club @cn-pt @website-pt @tracker-pt
+pt.ourhelp.club @cn-pt
 ourdisc.net @cn-pt
 pandapt.net @cn-pt
 piggo.me @cn-pt
@@ -123,6 +126,7 @@ pt.btschool.club @cn-pt @website-pt @tracker-pt
 pt.eastgame.org @cn-pt @website-pt @tracker-pt
 pt.sjtu.edu.cn @cn-pt @website-pt
 full:trakcer.sjtu.edu.cn @cn-pt @tracker-pt
+pt.xauat6.edu.cn @cn-pt
 ptcafe.club @cn-pt
 ptchdbits.co @cn-pt @website-pt @tracker-pt
 chddiy.xyz @cn-pt @tracker-pt
@@ -132,14 +136,18 @@ ptchina.org @cn-pt
 pterclub.com @cn-pt @website-pt
 pthome.net @cn-pt
 ptlsp.com @cn-pt # dead site
+ptlgs.org @cn-pt
 ptneko.com @cn-pt
 ptsbao.club @cn-pt
 pttime.org @cn-pt
 ptvicomo.net @cn-pt @website-pt
 ptzone.xyz @cn-pt @website-pt @tracker-pt
 qingwa.pro @cn-pt
+qingwapt.com @cn-pt
+qingwapt.org @cn-pt
 qhstudio.fun @cn-pt
 raingfh.top @cn-pt @website-pt @tracker-pt
+resource.xidian.edu.cn @cn-pt
 rousi.zip @cn-pt @website-pt @tracker-pt
 sharkpt.net @cn-pt # dead site
 skyey2.com @cn-pt
@@ -148,6 +156,8 @@ springsunday.net @cn-pt @website-pt
 full:on.springsunday.net @cn-pt @tracker-pt
 srvfi.top @cn-pt
 star-space.net @cn-pt
+sunnypt.top @cn-pt
+t.tosky.club @cn-pt
 tjupt.org @cn-pt @website-pt
 full:tracker-public.tjupt.org @cn-pt @tracker-pt
 totheglory.im @cn-pt @website-pt
@@ -175,6 +185,7 @@ acid-lounge.org.uk
 acrossthetasman.com
 adult-cinema-network.net
 aidoru-online.me
+aither.cc
 alpharatio.cc
 amigos-share.club
 animebytes.tv
@@ -195,6 +206,7 @@ aussierul.es
 avistaz.to @!cn
 aystorrent.ro
 back-ups.me
+baconbits.org
 bakabt.me
 beelyrics.net
 bemaniso.ws
@@ -202,6 +214,7 @@ best-core.info
 beyond-hd.me
 bibliotik.me
 bigbbs.eu
+bitbr.cc
 bitgamer.ch
 bit-hdtv.com
 bithorlo.info
@@ -229,6 +242,7 @@ carp-hunter.hu
 cartoonchaos.org
 cathode-ray.tube
 cgpeers.to
+cgpeers.com
 cheggit.me
 chilebt.com
 cinemageddon.net
@@ -257,9 +271,11 @@ divteam.com
 dreamingtree.org
 drugari.org
 ebooks-shares.org
+eiga.moi
 electro-torrent.pl
 eliteunitedcrew.org
 empornium.is
+empornium.sx
 estone.cc
 ewerest.hu
 exigomusic.org
@@ -279,6 +295,7 @@ femdomcult.org
 filelist.io @website-pt
 full:reactor.filelist.io @tracker-pt
 file-tracker.net
+filept.com
 filewarez.tv
 finelite.org
 finvip.org
@@ -291,11 +308,15 @@ futuretorrent.org
 fuzer.me
 gardencenterstage.org
 gaytor.rent
+gaytorrent.ru
 gay-torrents.net
 gay-torrents.org
+gay-torrents.se
+gay-area.org
 gaytracker.ru
 gazellegames.net
 generalfilm.org
+gfxpeers.net
 gigatorrents.ws
 gimmepeers.com
 girotorrent.org
@@ -334,6 +355,7 @@ janemusic.org
 jme-reunit3d.de
 jpopsuki.eu
 jptv.club
+jptvts.us
 karagarga.in
 kinozal.tv
 kraytracker.com
@@ -378,10 +400,12 @@ musictorrents.org
 myanonamouse.net
 mycarpathians.net
 myspleen.org
+ncore.pro
 nebulance.io
 nethd.org
 newinsane.info
 new-retro.eu
+newworld.plus
 ninjacentral.co.za
 norbits.net
 nordichd.org
@@ -429,6 +453,8 @@ rgfootball.net
 rstorrent.org.pl
 ru-board.com
 rutracker.org
+rutracker.net
+rutracker.nl
 satclubbing.club
 scenehd.org
 scene-rush.com
@@ -436,6 +462,7 @@ scenetime.com
 seatracker.ru
 secret-cinema.pw
 seedfile.ro
+sdbits.org
 s-f-p.dyndns.dk
 shadowthein.net
 shakaw.com.br
@@ -451,6 +478,7 @@ sor-next.tk
 speed.cd
 speedapp.io
 sportscult.org
+sugoimusic.me
 superbits.org
 t3nnis.tv
 tapochek.net
@@ -461,6 +489,7 @@ teamhd.org
 tekeremata.org
 tekno3d.com
 tenyardtracker.com
+telly.wtf
 teracod.net
 tgay.pro
 the-zomb.com
@@ -481,6 +510,7 @@ tmghub.org
 tntracker.org
 tophos.org
 tornado.si
+torrent.desi
 torrent.lt
 torrentbd.com
 torrentbytes.net
@@ -490,7 +520,8 @@ torrenteros.org
 torrenthr.org
 torrentland.li
 torrentleech.org @website-pt
-full:tracker.tleechreload.org @tracker-pt
+tleechreload.org @website-pt
+torrentleech.cc @website-pt
 torrentleech.pl
 torrentseeds.org
 torrent-turk.de
@@ -520,6 +551,7 @@ web4sync.com
 white-angel.hu
 wigornot.com
 wings2heaven.net
+world-in-hd.net
 worldboxingvideoarchive.com
 xbtmusic.org
 xbytesv2.li
