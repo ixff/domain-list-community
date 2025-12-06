@@ -1,5 +1,5 @@
 ## 说明
-- 本仓库完善了 [category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt)，几乎包括了全部的PT内站和外站的域名，以方便设置 Tracker 直连规则。
+- ~~本仓库完善了 [category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt)，几乎包括了全部的PT内站和外站的域名，以方便设置 Tracker 直连规则~~。 补充完善了原仓库中的 [category-pt](https://github.com/v2fly/domain-list-community/blob/master/data/category-pt)，并拆分为 [category-pt-cn](https://github.com/ixff/domain-list-community/blob/master/data/category-pt-cn)、[category-pt-!cn](https://github.com/ixff/domain-list-community/blob/master/data/category-pt-!cn) 两部分。**[category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt) 不再维护，为避免误走代理，目前暂时保留，但未来会删除**。
 - 本仓库构建的路由规则文件只用作 [ixff/domain-list-custom](https://github.com/ixff/domain-list-custom) 的数据源，不建议直接使用，**建议使用 [ixff/meta-rules-dat](https://github.com/ixff/meta-rules-dat) 仓库中的路由规则文件**，它们基于本仓库的规则加强而来。
 - 如果你发现缺少某些站点域名或其tracker域名，请[提issue](https://github.com/ixff/domain-list-community/issues/new?assignees=&labels=&projects=&template=%E5%9F%9F%E5%90%8D%E6%9B%B4%E6%96%B0.md&title=%E3%80%90%E5%9F%9F%E5%90%8D%E6%9B%B4%E6%96%B0%E3%80%91XXX)，维护该列表需要大家的共同努力。
 
@@ -172,4 +172,3 @@ Attribute is useful for sub-group of domains, especially for filtering purpose. 
 * A script will verify your pull request to test whether your PR is correct or not every time you update the PR. Only the PR which passes the test will be merged. Please go to the Action label to get detailed information if you didn't pass it. We also provide the file which has been generated to make you test.
 * After a few successful PRs, you may apply for manager access to this repository.
 </details>
->>>>>>> ff140e22 (迁移到meta-rules-dat)
